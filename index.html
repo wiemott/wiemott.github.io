@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap">
+    <title>Anti und Jojo heiraten</title>
+    <script src="OpenLayers.js"></script>
+<script>
+    map = new OpenLayers.Map("map");
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.zoomToMaxExtent();
+
+      function init() {
+        map = new OpenLayers.Map("basicMap");
+        var mapnik         = new OpenLayers.Layer.OSM();
+        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+        var position       = new OpenLayers.LonLat(13.41,52.52).transform( fromProjection, toProjection);
+        var zoom           = 15; 
+
+        map.addLayer(mapnik);
+        map.setCenter(position, zoom );
+      }
+    </script>
+</head>
+<body onload="init();">
+    <div id="main">
+        <h1>Wir heiraten!</h1>
+    </div>
+        
+    <div class="page" id="save_the_date">
+        <h1>Save the date!</h1>
+            <div style="text-align:center; margin-top:30px; font-size: 30px;">August 3, 2024</div>
+            <div style="text-align:center; margin-top:20px; font-size: 50px;">Antoine &amp; Johanna</div>
+            
+            <div class="presentation">
+             <p class="item">The time has finally come! We want to get married and celebrate this together with you. The celebration will take place in the <a href="https://www.google.fr/maps/place/Stadtscheune+Buckow/@52.5723302,14.0695811,17z/data=!3m1!4b1!4m6!3m5!1s0x47a9d4bd4e7413d9:0xef75d65cbafa2407!8m2!3d52.572327!4d14.072156!16s%2Fg%2F11dzdh7n43?entry=ttu">Stadtscheune in Buckow</a> in the Märkische Schweiz in Brandenburg. We have already reserved 12 rooms (100€-130€ per night) at the <a href="https://www.stobbermuehle.de/">Hotel Stobbermühle</a>. Please let us know if you would like to have one of them. Otherwise there are apartments, vacation homes and other hotels in the area. But be fast, the area is very popular and books up quickly.</p>
+                
+            <p class="item">Endlich ist es soweit! Wir wollen heiraten und dies mit euch gemeinsam feiern. Die Feier wird in der <a href="https://www.google.fr/maps/place/Stadtscheune+Buckow/@52.5723302,14.0695811,17z/data=!3m1!4b1!4m6!3m5!1s0x47a9d4bd4e7413d9:0xef75d65cbafa2407!8m2!3d52.572327!4d14.072156!16s%2Fg%2F11dzdh7n43?entry=ttu">Stadtscheune in Buckow</a> in der Märkischen Schweiz in Brandenburg stattfinden. Wir haben bereits 12 Zimmer (100€-130€ pro Nacht) im <a href="https://www.stobbermuehle.de/">Hotel Stobbermühle</a> reserviert. Gebt uns bitte Bescheid, solltet ihr eins davon haben wollen. Ansonsten gibt es Apartments, Ferienwohnungen und andere Hotels in dem Ort. Haltet euch aber ran, die Gegend ist sehr beliebt und schnell ausgebucht.</p>
+                
+           <p class="item">C'est l'heure ! Nous voulons nous marier et fêter cela avec vous. La fête aura lieu dans la <a href="https://www.google.fr/maps/place/Stadtscheune+Buckow/@52.5723302,14.0695811,17z/data=!3m1!4b1!4m6!3m5!1s0x47a9d4bd4e7413d9:0xef75d65cbafa2407!8m2!3d52.572327!4d14.072156!16s%2Fg%2F11dzdh7n43?entry=ttu">Stadtscheune à Buckow</a>, dans la Märkische Schweiz, dans l'état de Brandebourg. Nous avons déjà réservé 12 chambres (100€-130€ par nuit) à l'<a href="https://www.stobbermuehle.de/">hôtel Stobbermühle</a>. Faites-nous savoir si vous souhaitez en avoir une. Sinon, il y a des appartements, des maisons de vacances et d'autres hôtels dans le village. Mais faites vite, car la région est très populaire et les réservations se font rapidement.</p>
+            
+            </div>
+            
+            <div id="map"></div>
+
+        </div>
+</body>
+</html>

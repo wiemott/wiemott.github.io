@@ -1,0 +1,91 @@
+body, html {
+  height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #e13300;*/
+    font-family: 'Dancing Script', cursive;
+}
+
+a {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: inherit;
+}
+
+#main {
+background-image: url("prague.jpg");
+background-attachment: fixed;   
+    background-position: 25% 50%;
+    background-size: cover;
+    height:100vh;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    overflow: hidden;
+}
+
+#save_the_date{
+    overflow:hidden;
+    height:100vh;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    color: white;
+}
+
+
+.page {
+    position: relative;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    height: 0px;
+}
+
+
+.prague {
+    background-image: url("prague.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:0px;
+    top: -50vh;
+    width: 200vh;
+    height: 180vh;
+    z-index: -1;
+}
+
+.par_bg {
+  height: 80vh;
+  left: 0;
+}
+
+#map {
+  height: 100%;
+    width: 100%;
+}
+
+
+
+.presentation {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 10px 20px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+
+.item {
+    flex-basis: 25%;
+    text-align: center;
+}
