@@ -14,14 +14,14 @@ a {
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 350px){
     #main {
         background-image: url("prague.jpg");
         background-position: 50% -10%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 130% auto;
-        height: 20vh;
+        height: 0px;
         overflow: hidden;
     }
     
@@ -35,7 +35,7 @@ a {
         padding-left: 30px;
         padding-right: 30px;
         gap: 10px 20px;
-        font-size: 15px;
+        font-size: 25px;
         font-family: 'Montserrat';
     }
 
@@ -45,12 +45,6 @@ a {
     }
 }
 
-
-@media (max-width: 400px) {
-    #main{
-        height: 0px;
-    }
-}
 
 @media (min-width: 401px) {
     #main {
