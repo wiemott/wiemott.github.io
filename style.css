@@ -46,7 +46,7 @@ a {
 }
 
 
-@media (max-width: 340px) {
+@media (max-width: 400px) {
     #main{
         height: 0px;
     }
@@ -56,7 +56,7 @@ a {
     #main {
     background-image: url("prague.jpg");
     background-attachment: fixed;   
-        background-position: 25% 50%;
+        background-position: 50% 50%;
         background-size: cover;
         height:100vh;
         font-size: 50px;
