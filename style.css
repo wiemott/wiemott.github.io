@@ -14,7 +14,7 @@ a {
 }
 
 
-@media (max-width: 350px){
+@media (max-width: 390px){
     #main {
         background-image: url("prague.jpg");
         background-position: 50% -10%;
@@ -46,7 +46,7 @@ a {
 }
 
 
-@media (min-width: 401px) {
+@media (min-width: 391px) {
     #main {
     background-image: url("prague.jpg");
     background-attachment: fixed;   
