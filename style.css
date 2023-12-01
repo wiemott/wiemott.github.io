@@ -24,14 +24,6 @@ a {
         overflow: hidden;
     }
     
-    #save_the_date{
-        overflow:hidden;
-        min-height: 100vh;
-        background-image: url("background.jpeg");
-        background-size: cover;
-        color: white;
-    }
-    
     .presentation {
         display:flex;
         flex-flow: column wrap;
@@ -65,14 +57,7 @@ a {
         overflow: hidden;
     }
 
-    #save_the_date{
-        overflow:hidden;
-        height:auto;
-        min-height: 100vh;
-        background-image: url("background.jpeg");
-        background-size: cover;
-        color: white;
-    }
+    
     
     .presentation {
         display:flex;
@@ -95,7 +80,14 @@ a {
 }
 
 
-
+#save_the_date{
+    overflow:hidden;
+    height:auto;
+    min-height: 100vh;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    color: white;
+}
 
 .page {
     position: relative;
