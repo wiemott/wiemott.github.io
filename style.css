@@ -13,6 +13,16 @@ a {
     color: inherit;
 }
 
+@media (max-width: 767px){
+    #main {
+        background-image: url("prague.jpg");
+        background-position: 50% top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 70% auto;
+    }
+}
+
 #main {
 background-image: url("prague.jpg");
 background-attachment: fixed;   
