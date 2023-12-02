@@ -27,8 +27,8 @@ a {
     
     .presentation {
         display:flex;
-        flex-flow: column wrap;
-        justify-content: space-between;
+        flex-flow: row wrap;
+        
         position: relative;
 
         margin-top: 10px;
