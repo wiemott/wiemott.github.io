@@ -40,7 +40,9 @@ a {
     }
 
     .item {
-        flex-basis: 100%;
+        flex-basis: 30%;
+        flex-shrink: 0;
+        min-width: 300px;
         text-align: center;
     }
 }
@@ -100,10 +102,4 @@ h1 {
     color: white;
     text-align: center;
     height: 0px;
-}
-
-
-#map {
-  height: 100%;
-    width: 100%;
 }
