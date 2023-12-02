@@ -14,7 +14,7 @@ a {
 }
 
 
-@media (max-width: 390px){
+@media (max-width: 499px){
     #main {
         background-image: url("prague.jpg");
         background-position: 50% -10%;
@@ -46,7 +46,7 @@ a {
 }
 
 
-@media (min-width: 391px) {
+@media (min-width: 500px) {
     #main {
     background-image: url("prague.jpg");
     background-attachment: fixed;   
@@ -76,7 +76,7 @@ a {
     .item {
         flex-basis: 30%;
         flex-shrink: 0;
-        min-width: 200px;
+        min-width: 300px;
         text-align: center;
     }
 }
