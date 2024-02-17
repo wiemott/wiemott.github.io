@@ -135,7 +135,7 @@ a.nodec {
         font-family: 'Montserrat';
         background-image: url("anti.svg"), url("jojo.svg");
         background-repeat: no-repeat, no-repeat;
-        background-position: -240px 0px, 200% 0px;
+        background-position: left, right;
     }
 }
 
