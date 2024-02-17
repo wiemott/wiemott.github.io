@@ -53,14 +53,7 @@ a {
     color: white;
 }
 
-#info{
-    color: black;
-    min-height: 100vh;
-    font-family: 'Montserrat';
-    background-image: url("anti.svg"), url("jojo.svg");
-    background-repeat: no-repeat;
-    background-position: -200px 0px, 180% 0px;
-}
+
 
 .content {
     width: 50%;
@@ -91,6 +84,12 @@ h2 {
 
 a.nodec {
     text-decoration: none;
+}
+
+#info {
+    color: black;
+    min-height: 100vh;
+    font-family: 'Montserrat';
 }
 
 
@@ -126,6 +125,15 @@ a.nodec {
         flex-shrink: 0;
         min-width: 300px;
         text-align: center;
+    }
+    
+    #info{
+        color: black;
+        min-height: 100vh;
+        font-family: 'Montserrat';
+        background-image: url("anti.svg"), url("jojo.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: -200px 0px, 180% 0px;
     }
 }
 
