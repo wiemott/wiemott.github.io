@@ -58,6 +58,7 @@ a {
 .content {
     width: 50%;
     margin: auto;
+    
 }
 
 td {
@@ -76,6 +77,7 @@ h1 {
     text-align: center;
     height: 0px;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 70px;
 }
 
 h2 {
@@ -133,7 +135,7 @@ a.nodec {
         font-family: 'Montserrat';
         background-image: url("anti.svg"), url("jojo.svg");
         background-repeat: no-repeat, no-repeat;
-        background-position: -200px 0px, 180% 0px;
+        background-position: -240px 0px, 200% 0px;
     }
 }
 
