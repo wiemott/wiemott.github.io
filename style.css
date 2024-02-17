@@ -53,17 +53,45 @@ a {
     color: white;
 }
 
+#info{
+    color: black;
+    min-height: 100vh;
+    font-family: 'Montserrat';
+    background-image: url("anti.svg"), url("jojo.svg");
+    background-repeat: no-repeat;
+    background-position: -200px 0px, 180% 0px;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+
 .page {
     position: relative;
 }
 
 
 h1 {
-    color: white;
+    /*color: white;*/
     text-align: center;
     height: 0px;
+    font-family: 'Dancing Script', cursive;
 }
 
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+a.nodec {
+    text-decoration: none;
+}
 
 
 @media (min-width: 1400px) {
@@ -75,7 +103,7 @@ h1 {
         height:100vh;
         font-size: 50px;
         font-weight: bolder;
-        color: black;
+        color: white;
         overflow: hidden;
     }
 
