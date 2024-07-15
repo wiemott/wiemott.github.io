@@ -92,6 +92,7 @@ a.nodec {
     color: black;
     min-height: 100vh;
     font-family: 'Montserrat';
+    background-color: white;
 }
 
 
@@ -136,6 +137,7 @@ a.nodec {
         background-image: url("anti.svg"), url("jojo.svg");
         background-repeat: no-repeat, no-repeat;
         background-position: left, right;
+        background-size: 450px, 450px;
     }
 }
 
